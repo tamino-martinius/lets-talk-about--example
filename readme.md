@@ -15,4 +15,5 @@ This is an example how to use the [Lets talk about template](https://github.com/
 
 ## Preview
 
-[Demo Slides](http://tamino-martinius.github.io/lets-talk-about--example)
+[Demo Slides](https://example.lets-talk-about.tamino.dev
+)
