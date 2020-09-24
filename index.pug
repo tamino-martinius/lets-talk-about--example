@@ -5,16 +5,17 @@ html
       meta(charset='utf-8')
       script
         | window.PERMANENT_URL_PREFIX = window.PERMANENT_URL_PREFIX || 'node_modules/lets-talk-about--template/assets/vendor/';
-      script(src='node_modules/lets-talk-about--template/assets/vendor/slides.js')
-      link(href='styles.css'  rel='stylesheet' type='text/css')
+      link(href='styles.styl'  rel='stylesheet' type='text/css')
   body
     section.slides.layout-regular.template-default
       article.build
         h1 H1
         h2 H2
-      article.image(data-src="node_modules/lets-talk-about--template/assets/memes/philosoraptor.jpg")
+      article
+        img.bg(src="node_modules/lets-talk-about--template/assets/memes/philosoraptor.jpg")
         h1 Background Image
-      article.image.cover(data-src="node_modules/lets-talk-about--template/assets/memes/philosoraptor.jpg")
+      article
+        img.bg.cover(src="node_modules/lets-talk-about--template/assets/memes/philosoraptor.jpg")
         h1 Cover Image
       article
         ul
@@ -54,4 +55,4 @@ html
       article
         video(src="#" loop controls)
 
-    script(src='node_modules/lets-talk-about--template/assets/scripts/main.js')
+    script(src='node_modules/lets-talk-about--template/main.js')
