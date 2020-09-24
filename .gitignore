@@ -6,3 +6,4 @@ node_modules/lets-talk-about--template/*
 npm-debug.log*
 demo/*.js
 .vscode/
+.cache/
