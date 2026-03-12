@@ -1,0 +1,44 @@
+/* Layout */
+
+footer {
+  position: absolute;
+  text-align: right;
+  padding: 1ch;
+}
+
+/* Custom template: highlight-box */
+.template-highlight-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  padding: 2vh 4vw;
+}
+
+.highlight-box-accent {
+  background: var(--color-theme);
+  color: var(--color-section-foreground);
+  padding: 3vh 5vw;
+  border-radius: 1.5vw;
+  text-align: center;
+  width: 80%;
+  box-shadow: 0 0.5vh 2vh rgba(0, 0, 0, 0.15);
+}
+
+.highlight-box-accent h1,
+.highlight-box-accent h2,
+.highlight-box-accent h3 {
+  color: var(--color-section-foreground);
+  text-shadow: none;
+  margin: 0;
+}
+
+.highlight-box-body {
+  text-align: center;
+  width: 80%;
+}
+
+.highlight-box-body ul {
+  padding-left: 0;
+  text-align: left;
+}

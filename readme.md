@@ -1,19 +1,21 @@
 # Lets talk about - Example
 
-This is an example how to use the [Lets talk about template](https://github.com/tamino-martinius/lets-talk-about--template) as an dependency.
+Example presentation built with [lets-talk-about](https://github.com/tamino-martinius/lets-talk-about).
 
-## How to modify and run
+## How to run
 
-- Frok this repository
-- Configure your Theme with `styles.styl`.
-- Add backgrounds to `assets/bg/<num>.jpg`.
-- Set the number of background images with `styles.styl`.
-  You can also select if you want them ordered or random.
-- Add your slides to `index.pug`.
-- Install all dependencies with `npm install`.
-- Compile and preview the slides with `npm run start`.
+1. Install dependencies: `npm install`
+2. Start dev server: `npm run dev`
+3. Build for production: `npm run build`
+4. Deploy to GitHub Pages: `npm run deploy`
+
+## Customization
+
+- Edit slides in `slides.md`
+- Configure theme in `lets-talk-about.config.js`
+- Add background images to `public/assets/bg/`
+- Add other assets to `public/assets/images/` or `public/assets/videos/`
 
 ## Preview
 
-[Demo Slides](https://example.lets-talk-about.tamino.dev
-)
+[Demo Slides](https://example.lets-talk-about.tamino.dev)
