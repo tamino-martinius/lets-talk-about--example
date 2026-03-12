@@ -80,6 +80,18 @@ function fibonacci(n) {
 ```
 
 ---
+
+## Mermaid Diagram
+
+```mermaid
+graph TD
+    A[Client] -->|HTTP| B[Server]
+    B --> C[(Database)]
+    C --> B
+    B -->|Response| A
+```
+
+---
 type: section
 
 # New Section
