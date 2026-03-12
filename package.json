@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "lets-talk-about dev",
     "build": "lets-talk-about build",
+    "predeploy": "npm run build",
     "deploy": "lets-talk-about deploy"
   },
   "dependencies": {
