@@ -26,7 +26,15 @@ jobs:
 
       - run: npm ci
 
-      - run: npx lets-talk-about build --base /${{ github.event.repository.name }}/
+      - name: Build
+        run: |
+          if [ -f CNAME ]; then
+            npx lets-talk-about build
+          else
+            npx lets-talk-about build --base /${{ github.event.repository.name }}/
+          fi
+
+      - run: cp CNAME dist/ 2>/dev/null || true
 
       - uses: actions/upload-pages-artifact@v3
         with:
