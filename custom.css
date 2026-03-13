@@ -12,7 +12,6 @@ footer {
   flex-direction: column;
   align-items: center;
   gap: 3vh;
-  padding: 2vh 4vw;
 }
 
 .highlight-box-accent {
